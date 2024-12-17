@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deposit</title>
+  </head>
+  <body>
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <div class="box">
+      <div class="initial-balance">
+        <p class="text-title">Initial Balance : $</p>
+        <p id="balance"></p>
+      </div>
+      <div class="box-form" id="tambah"></div>
+    </div>
+
+    <input type="submit" class="submit-btn" onclick="addReport()" id="submit" />
+    <div id="report-data"></div>
+
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/depo.js"></script>
+  </body>
+</html>

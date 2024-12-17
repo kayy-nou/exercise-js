@@ -1,4 +1,7 @@
 let balance = 1000;
+
+console.log(balance);
+
 let newBalance = 0;
 let finalBalance = [];
 console.log("Initial Balance : $" + balance);

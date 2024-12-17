@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box {
+  margin: 2rem 50rem 0rem 2rem;
+  border: solid 2px;
+  border-color: black;
+  padding: 1rem;
+}
+
+.text-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.box-form {
+  margin-top: 1rem;
+}
+
+.form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.deposit,
+.withdraw {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.input {
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.icon-minus {
+  cursor: pointer;
+}
+
+.icon-plus {
+  cursor: pointer;
+}
+
+.add,
+.remove {
+  display: flex;
+  justify-content: space-between;
+  width: 20px;
+  align-items: center;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: space-between;
+  width: 55px;
+}
+
+.report {
+  margin-top: 2rem;
+  font-size: 14px;
+}
+
+th {
+  padding-bottom: 1rem;
+}
+
+.initial-balance {
+  display: flex;
+}
