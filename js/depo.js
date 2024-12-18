@@ -8,8 +8,8 @@ function addDay() {
   addForms();
 }
 
-function removeDay() {
-  day.splice(1, 1);
+function removeDay(idx) {
+  day.splice(idx, 1);
   addForms();
   console.log(day);
 }
@@ -43,7 +43,7 @@ function addForms() {
       `;
       }
 
-      if (newDay && addNewDay) {
+      if (addNewDay) {
         minusButton = `
         <button type="button" class="remove" onclick="removeDay(${index})">
           <i data-feather="minus-circle" class="icon-minus"></i>
